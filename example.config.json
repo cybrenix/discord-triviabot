@@ -1,8 +1,7 @@
 {
   "token": "(Put a Bot Token here)",
-  "clientId": "(Put your bot's ID here)",
-  "adminRoleId": 123456789,
-  "cooldownDuration": "(Cooldown between answers, in seconds)",
+  "adminRoleId": "(Put the ID of the role that will be able to control the bot)",
+  "cooldownDuration": 5,
   "trivia": [
     {
       "id": 1,

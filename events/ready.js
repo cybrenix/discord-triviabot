@@ -8,7 +8,7 @@ module.exports = {
 		console.log(`Ready! Logged in as ${client.user.tag}`);
 		const Guilds = client.guilds.cache.map(guild => guild.id);
 		for (const guildData of Guilds) {
-			DeployCommands(guildData);
+			DeployCommands(guildData, client.user.id);
 		}
 	},
 };
