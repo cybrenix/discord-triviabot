@@ -41,7 +41,7 @@ module.exports = {
 				const triviaEmbed = new EmbedBuilder()
 					.setColor(0x0099FF)
 					.setTitle('New trivia question!')
-					.setDescription(`A new trivia game is starting! Answer the question with /answer (The number for the answer).\nQuestion: ${question.question}`)
+					.setDescription("A new trivia game is starting! Answer the question with `/answer (The number for the answer)`.\n" + `Question: ${question.question}`)
 					.addFields(
 						question.options.map((option, index) => {
 							return {
