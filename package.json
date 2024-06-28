@@ -1,0 +1,23 @@
+{
+  "name": "discord-triviabot",
+  "version": "1.0.0",
+  "description": "Useful trivia bot for Discord.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "keywords": [
+    "puzzle",
+    "discord",
+    "bot"
+  ],
+  "author": "Cybrenix",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0"
+  }
+}

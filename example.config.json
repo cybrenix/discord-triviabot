@@ -1,0 +1,20 @@
+{
+  "token": "(Put a Bot Token here)",
+  "clientId": "(Put your bot's ID here)",
+  "adminRoleId": 123456789,
+  "cooldownDuration": "(Cooldown between answers, in seconds)",
+  "trivia": [
+    {
+      "id": 1,
+      "question": "What is the capital of France?",
+      "options": ["London", "Berlin", "Paris", "Madrid"],
+      "correctOption": 3
+    },
+    {
+      "id": 2,
+      "question": "In which year was JavaScript first introduced?",
+      "options": ["1990", "1995", "2000", "2005"],
+      "correctOption": 2
+    }
+  ]
+}
